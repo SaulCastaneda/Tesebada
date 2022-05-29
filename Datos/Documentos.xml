@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+            
+    
+    <Employee>
+                        
+        
+        <EmployeeID>1</EmployeeID>
+                        
+        
+        <FirstName>JUAN</FirstName>
+                        
+        
+        <LastName>PEREZ</LastName>
+                        
+        
+        <Title>PROGRAMADOR</Title>
+                        
+        
+        <Building>12</Building>
+                        
+        
+        <Room>1234</Room>
+                    
+    
+    </Employee>
+            
+    
+    <Employee>
+                        
+        
+        <EmployeeID>2</EmployeeID>
+                       
+        
+        <FirstName>ASD</FirstName>
+                        
+        
+        <LastName>ASD</LastName>
+                        
+        
+        <Title>ASD</Title>
+                        
+        
+        <Building>1</Building>
+                        
+        
+        <Room>2</Room>
+                    
+    
+    </Employee>
+        
+
+    <Employee>
+        
+        <EmployeeID>4</EmployeeID>
+        
+        <FirstName>as</FirstName>
+        
+        <LastName>asd</LastName>
+        
+        <Title>asd</Title>
+        
+        <Division>asd</Division>
+        
+        <Building>asd</Building>
+        
+        <Room>asd</Room>
+        
+    </Employee>
+    
+    <Employee>
+        <EmployeeID>5</EmployeeID>
+        <FirstName>Saul</FirstName>
+        <LastName>Castañeda</LastName>
+        <Title>Programador</Title>
+        <Division>NEORIS</Division>
+        <Building>Trece Afluencias</Building>
+        <Room>8</Room>
+    </Employee>
+</root>
