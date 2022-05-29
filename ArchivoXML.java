@@ -45,7 +45,7 @@ public class ArchivoXML{
 private static Document document;
   
 public  void CrearArchivo(String EmployeeID,String FirstName, String LastName, String Title, String Division, String Build,String Room) throws ParserConfigurationException, SAXException, IOException, TransformerConfigurationException, TransformerException{ 
-      String ruta= "C:\\Users\\e-jslopez\\OneDrive - NEORIS\\Desktop\\CRUDXMK\\Datos\\Documento.xml";
+      String ruta= "src\\TESEBADA\\Datos\\Documento.xml";
     File file= new File(ruta);
     String TagPrincipal="RegistroEmpleados";
     DocumentBuilderFactory dbf= DocumentBuilderFactory.newInstance();
@@ -124,7 +124,7 @@ public void leerArchivo(String archivo,String tag) {
     }
 public void Eliminar(String id) {
     try {
-            Document d = (Document) DomHelper.getDocument("src\\\\\\\\Datos\\\\\\\\Documento.xml");
+            Document d = (Document) DomHelper.getDocument("src\\TESEBADA\\Datos\\Documento.xml");
             NodeList nl = d.getElementsByTagName("Employee");
             for (int i = 0; i < nl.getLength(); i++) {
                 Element student = (Element) nl.item(i);
@@ -133,7 +133,7 @@ public void Eliminar(String id) {
                 }
             }
             
-            DomHelper.saveXMLContent(d, "src\\\\Datos\\\\Documento.xml");
+            DomHelper.saveXMLContent(d, "src\\\\TESEBADA\\\\Datos\\\\Documento.xml");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -142,7 +142,7 @@ public void Eliminar(String id) {
 public  void buscarEmp(String id)
 {
 	try {
-		  Document d = (Document) DomHelper.getDocument("C:\\Users\\e-jslopez\\OneDrive - NEORIS\\Desktop\\CRUDXMK\\Datos\\Documento.xml");
+		  Document d = (Document) DomHelper.getDocument("src\\TESEBADA\\Datos\\Documento.xml");
           NodeList nl = d.getElementsByTagName("Employee");
           for (int i = 0; i < nl.getLength(); i++) {
               Element emp = (Element) nl.item(i);
@@ -152,7 +152,7 @@ public  void buscarEmp(String id)
               }
           }
 
-          DomHelper.saveXMLContent(d, "src\\Datos\\Documentos.xml");
+          DomHelper.saveXMLContent(d, "src\\\\TESEBADA\\\\Datos\\\\Documento.xml");
       } catch (Exception e) {
           System.out.println(e.getMessage());
       

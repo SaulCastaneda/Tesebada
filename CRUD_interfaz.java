@@ -214,7 +214,7 @@ JOptionPane.showMessageDialog(null, "Se agrego Archivo");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void btnImprimirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnImprimirActionPerformed
-       XML.leerArchivo("src\\\\Datos\\\\Documento.xml", "Employee");
+       XML.leerArchivo("src\\TESEBADA\\Datos\\Documento.xml", "Employee");
        
     }//GEN-LAST:event_btnImprimirActionPerformed
 
@@ -223,7 +223,7 @@ JOptionPane.showMessageDialog(null, "Se agrego Archivo");
        
             XML.Eliminar(id);
             System.out.println("--------------------------------------------------------------------------------");
-         XML.leerArchivo("src\\\\\\\\Datos\\\\\\\\Documento.xml", "Employee");
+         XML.leerArchivo("src\\TESEBADA\\Datos\\Documento.xml", "Employee");
     }//GEN-LAST:event_btnEliiminarActionPerformed
 
     private void btnSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSalirActionPerformed
