@@ -124,7 +124,7 @@ public void leerArchivo(String archivo,String tag) {
     }
 public void Eliminar(String id) {
     try {
-            Document d = (Document) DomHelper.getDocument("C:\\\\Users\\\\e-jslopez\\\\OneDrive - NEORIS\\\\Desktop\\\\CRUDXMK\\\\Datos\\\\Documento.xml");
+            Document d = (Document) DomHelper.getDocument("src\\\\\\\\Datos\\\\\\\\Documento.xml");
             NodeList nl = d.getElementsByTagName("Employee");
             for (int i = 0; i < nl.getLength(); i++) {
                 Element student = (Element) nl.item(i);
@@ -133,7 +133,7 @@ public void Eliminar(String id) {
                 }
             }
             
-            DomHelper.saveXMLContent(d, "C:\\\\Users\\\\e-jslopez\\\\OneDrive - NEORIS\\\\Desktop\\\\CRUDXMK\\\\Datos\\\\Documento.xml");
+            DomHelper.saveXMLContent(d, "src\\\\Datos\\\\Documento.xml");
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -152,7 +152,7 @@ public  void buscarEmp(String id)
               }
           }
 
-          DomHelper.saveXMLContent(d, "C:\\Users\\e-jslopez\\OneDrive - NEORIS\\Desktop\\CRUDXMK\\Datos\\Documentos.xml");
+          DomHelper.saveXMLContent(d, "src\\Datos\\Documentos.xml");
       } catch (Exception e) {
           System.out.println(e.getMessage());
       
